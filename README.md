@@ -1,5 +1,5 @@
 # supreme-scraper
-A simple web scraper for the clothing site supreme.
+A simple CLI based web scraper for the clothing site supreme using cheerio, node-fetch and prompt-sync. Find basic information on any item on their site using this tool.
 
 How to install:
 
