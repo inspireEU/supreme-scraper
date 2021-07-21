@@ -6,7 +6,8 @@ How to install:
 
 In action:
 
-![image](https://user-images.githubusercontent.com/66625166/126553798-27d8ef81-49a5-4c9c-8fa5-b97006df590e.png)
+![image](https://user-images.githubusercontent.com/66625166/126553978-40b74cef-865c-463d-8330-521335c5f4e1.png)
+
 
 
 
