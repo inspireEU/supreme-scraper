@@ -3,7 +3,10 @@ A simple web scraper for the clothing site supreme.
 
 How to install:
 
-> git clone https://github.com/inspireEU/supreme-scraper.git
-> cd supreme-scraper
-> npm install
-> node main.js
+1. git clone https://github.com/inspireEU/supreme-scraper.git
+
+2. cd supreme-scraper
+
+3. npm install
+
+4. node main.js
