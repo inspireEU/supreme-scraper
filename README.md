@@ -3,13 +3,8 @@ A simple CLI-based web scraper for the clothing site supreme using cheerio, node
 
 How to install:
 
-1. git clone https://github.com/inspireEU/supreme-scraper.git
+![carbon](https://user-images.githubusercontent.com/66625166/126553581-bec040ef-6730-4c91-ad03-d1a7776b34fe.png)
 
-2. cd supreme-scraper
-
-3. npm install
-
-4. node main.js
 
 In action:
 
