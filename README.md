@@ -10,3 +10,11 @@ How to install:
 3. npm install
 
 4. node main.js
+
+In action:
+
+
+
+https://user-images.githubusercontent.com/66625166/126552704-619b3d16-81a6-49ec-a2e1-2cd6eb44b93b.mp4
+
+
