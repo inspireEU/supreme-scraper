@@ -2,7 +2,8 @@
 A simple CLI-based web scraper for the clothing site supreme using cheerio, node-fetch and prompt-sync. Find basic information on any item on their site using this tool.
 
 How to install:
-![carbon (1)](https://user-images.githubusercontent.com/66625166/126554091-19e8e432-de66-4257-be6e-c570f8edfebc.png)
+![carbon (2)](https://user-images.githubusercontent.com/66625166/126554533-fbe78409-e3f4-4033-8fab-6a25fd7f5dbd.png)
+
 
 
 In action:
