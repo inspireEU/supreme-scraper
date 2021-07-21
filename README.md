@@ -7,9 +7,13 @@ How to install:
 **----- copy line for line if lazy 😉 -----**
 
 **1. git clone https://github.com/inspireEU/supreme-scraper.git**
+
 **2. cd supreme-scraper**
+
 **3. cd srcs**
+
 **4. npm install**
+
 **5. node .**
 
 In action:
