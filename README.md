@@ -25,6 +25,6 @@ In action:
 **TODO**
 
 1. Switch to mobile_stock endpoint as backup (if it is still used)
-2. 
+2. Consider adding whether In Stock or Out Of Stock once logged.
 
 
