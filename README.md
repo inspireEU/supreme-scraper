@@ -26,5 +26,6 @@ In action:
 
 1. Switch to mobile_stock endpoint as backup (if it is still used)
 2. Consider adding whether In Stock or Out Of Stock once logged.
+3. Add another version of this software for others to use (without console logging and other readability based things...)
 
 
