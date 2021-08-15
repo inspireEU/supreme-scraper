@@ -22,6 +22,9 @@ In action:
 
 ![image](https://user-images.githubusercontent.com/66625166/126553978-40b74cef-865c-463d-8330-521335c5f4e1.png)
 
+**TODO**
 
+1. Switch to mobile_stock endpoint as backup (if it is still used)
+2. 
 
 
