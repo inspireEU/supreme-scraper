@@ -7,7 +7,7 @@ let itemHref;
 let itemArr = [];
 let itemCarr = [];
 let itemHrefArr = [];
-let submitType;
+let stockAPI = 'https://www.supremenewyork.com/mobile_stock.json'
 
 function mainProcess(){
     const clothingTypes = ['sale', 'jackets', 'shirts', 'tops/sweaters', 'sweatshirts', 'shorts', 'hats', 'bags', 'accessories', 'exit program'];
@@ -66,15 +66,15 @@ async function checkSite(){
             console.log('---------------------------------------------------')
             mainProcess();
         } else {
-            startSearch(submitType);
+            startSearch(clothingDecision);
         }
 
     })
 
 }
 
-async function startSearch(submitType){
-    await fetch(`https://www.supremenewyork.com/shop/all/${submitType}`)
+async function startSearch(clothingDecision){
+    await fetch(`https://www.supremenewyork.com/shop/all/${clothingDecision}`)
     .then(function (response) {
 
         const status = response.status;
@@ -105,7 +105,7 @@ async function startSearch(submitType){
             })
         
             for(y=0;y<itemArr.length; y++){
-                console.log('\x1b[31m', `Item Name: '${itemArr[y]}',`, '\x1b[32m', `Colourway: '${itemCarr[y]}',`, '\x1b[34m', `link: 'https://www.supremenewyork.com/shop/${submitType}${itemHrefArr[y]}`)
+                console.log('\x1b[31m', `Item Name: '${itemArr[y]}',`, '\x1b[32m', `Colourway: '${itemCarr[y]}',`, '\x1b[34m', `link: 'https://www.supremenewyork.com/shop/${clothingDecision}${itemHrefArr[y]}`)
             }
         
             console.log("\x1b[0m", '');
