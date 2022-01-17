@@ -22,22 +22,19 @@ function mainProcess(){
 
     console.log('');
 
-    for(x=0; x<10; x++){
-        if(decision == x){
-            if (decision == 3){
-                submitType = 'tops_sweaters';
-                checkSite(submitType);
-
-            } else {
-                submitType = clothingTypes[x];
-                checkSite(submitType);
-            }
-            if(decision == 9){
-                console.clear();
-                process.exit();
-            }
-        }
+    if(decision == '9'){
+        console.clear();
+        process.exit();
     }
+
+    const clothingDecision = clothingTypes[decision];
+
+    if(!clothingDecision){
+        console.log('Not a valid selection, please try again.');
+        mainProcess();
+    }
+
+    checkSite(clothingDecision.replace('/', '_'));
 }
 
 async function checkSite(){
